@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Bildungszeit BaWü" max_length="40" name="x_58872_needit_bildungszeit_baw" type="collection">
+        <element label="Approval List" max_length="4000" name="approval_list" type="journal_list"/>
+        <element label="Falle Nr" max_length="32" name="falle_nr" reference="sn_customerservice_case" type="reference"/>
+        <element default="javascript:getNextObjNumberPadded();" display="true" dynamic_default_value="fdcb83a85f220100a9ad2572f2b4773c" label="Form Number" max_length="40" name="form_number" read_only="true" type="string" use_dynamic_default="true"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" default="draft" label="Genehmiger Status" mandatory="true" max_length="40" name="genehmiger_status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Draft" value="draft"/>
+                <element inactive_on_update="false" label="Approved" sequence="0" value="approved"/>
+                <element inactive_on_update="false" label="Pending" sequence="1" value="Pending"/>
+                <element inactive_on_update="false" label="Rejected" sequence="2" value="rejected"/>
+            </choice>
+        </element>
+        <element label="* 1. Genehmiger" max_length="32" name="u_1_genehmiger" reference="sys_user" type="reference"/>
+        <element label="* 2. Genehmiger" max_length="32" name="u_2_genehmiger" reference="sys_user" type="reference"/>
+        <element label="* 3. Fachgruppen" max_length="32" name="u_3_fachgruppen" reference="sys_user_group" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Approval History" max_length="4000" name="u_journal_1" type="journal"/>
+        <index name="index">
+            <element name="u_3_fachgruppen"/>
+        </index>
+        <index name="index2">
+            <element name="u_2_genehmiger"/>
+        </index>
+        <index name="index3">
+            <element name="falle_nr"/>
+        </index>
+        <index name="index4">
+            <element name="u_1_genehmiger"/>
+        </index>
+    </element>
+</database>

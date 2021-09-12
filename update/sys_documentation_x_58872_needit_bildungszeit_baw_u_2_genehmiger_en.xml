@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_2_genehmiger" label="* 2. Genehmiger" language="en" table="x_58872_needit_bildungszeit_baw">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_2_genehmiger</element>
+            <help/>
+            <hint/>
+            <label>* 2. Genehmiger</label>
+            <language>en</language>
+            <name>x_58872_needit_bildungszeit_baw</name>
+            <plural>* 2. Genehmigers</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-09-11 17:56:45</sys_created_on>
+            <sys_id>006803152f6a301022509facf699b668</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>* 2. Genehmiger</sys_name>
+            <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+            <sys_update_name>sys_documentation_x_58872_needit_bildungszeit_baw_u_2_genehmiger_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-09-11 17:56:45</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
