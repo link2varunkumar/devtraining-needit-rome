@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_breakdowns">
+    <pa_breakdowns action="DELETE">
+        <data_source/>
+        <default_filter/>
+        <description/>
+        <dimension display_value="NeedIt Requested for">f85a83e52fe6701022509facf699b61c</dimension>
+        <display>true</display>
+        <facts_table/>
+        <field/>
+        <groups/>
+        <id/>
+        <name>Requested for</name>
+        <role_override>true</role_override>
+        <roles/>
+        <script/>
+        <scripted>false</scripted>
+        <sql_statement/>
+        <sys_class_name>pa_breakdowns</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-09-12 12:43:44</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>745a0b292fe6701022509facf699b6cf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Requested for</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>pa_breakdowns_745a0b292fe6701022509facf699b6cf</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-09-12 12:43:44</sys_updated_on>
+        <type>1</type>
+        <users/>
+        <visible_to>2</visible_to>
+    </pa_breakdowns>
+    <sys_translated_text action="DELETE" query="documentkey=745a0b292fe6701022509facf699b6cf"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>c5b07d4bdbf8bf00387021c4059619dd</instance_id>
+        <instance_name>dev81823</instance_name>
+        <name>pa_breakdowns_745a0b292fe6701022509facf699b6cf</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_breakdowns"><pa_breakdowns action="INSERT_OR_UPDATE"><data_source/><default_filter/><description/><dimension display_value="NeedIt Requested for">f85a83e52fe6701022509facf699b61c</dimension><display>true</display><facts_table/><field/><groups/><id/><name>Requested for</name><role_override>true</role_override><roles/><script/><scripted>false</scripted><sql_statement/><sys_class_name>pa_breakdowns</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-09-12 12:43:44</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>745a0b292fe6701022509facf699b6cf</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Requested for</sys_name><sys_overrides/><sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package><sys_policy/><sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope><sys_update_name>pa_breakdowns_745a0b292fe6701022509facf699b6cf</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-09-12 12:43:44</sys_updated_on><type>1</type><users/><visible_to>2</visible_to></pa_breakdowns><sys_translated_text action="delete_multiple" query="documentkey=745a0b292fe6701022509facf699b6cf"/></record_update>]]></payload>
+        <payload_hash>234173747</payload_hash>
+        <record_name>Requested for</record_name>
+        <reverted_from/>
+        <source>f5169d452fe6301022509facf699b677</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-09-12 12:43:44</sys_created_on>
+        <sys_id>f45a0b292fe6701022509facf699b6d1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17bda08f2ec0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-09-12 12:43:44</sys_updated_on>
+        <type>Breakdown</type>
+        <update_guid>305a0b29c4e670100a6d42c92b0124d1</update_guid>
+        <update_guid_history>305a0b29c4e670100a6d42c92b0124d1:234173747</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Requested for">e07acb292fe6701022509facf699b65f</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-09-12 12:44:16</sys_created_on>
+        <sys_db_object display_value="" name="pa_breakdowns">pa_breakdowns</sys_db_object>
+        <sys_id>053bb9b0aea948508245a2173a793100</sys_id>
+        <sys_metadata>745a0b292fe6701022509facf699b6cf</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Requested for</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>pa_breakdowns_745a0b292fe6701022509facf699b6cf</sys_update_name>
+        <sys_update_version display_value="pa_breakdowns_745a0b292fe6701022509facf699b6cf">f45a0b292fe6701022509facf699b6d1</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-09-12 12:44:16</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
